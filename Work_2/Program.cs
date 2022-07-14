@@ -38,7 +38,7 @@ void NumberArray(int x, int y ,int [,] matr)
 {
 if(x > matr.GetLength(0)-1 || y > matr.GetLength(1)-1 )
     {
-        Console.Write("Такого элемента нет");
+        Console.Write("Такого элемента в массиве нет");
     }
 else if(x < 0 || y < 0 )
     {
