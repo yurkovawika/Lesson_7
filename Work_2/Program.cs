@@ -43,9 +43,7 @@ if(x > matr.GetLength(0)-1 || y > matr.GetLength(1)-1 )
 else if(x < 0 || y < 0 )
     {
         Console.Write("Вы ввели отрицательное число");
-    }
-        
-    
+    }  
 else  Console.WriteLine($"Искомое число в массиве -> {matr[x,y]}");
 }
 int m = Prompt("Введите кол-во строк - > ");
